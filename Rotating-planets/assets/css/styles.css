@@ -1,0 +1,63 @@
+@keyframes firstPlanetRender {
+    0%{background: linear-gradient(-90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+    12%{ background: linear-gradient(-90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+    12.1%{ background: linear-gradient(90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+    62%{ background: linear-gradient(90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+    62.1%{ background: linear-gradient(-90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+    100%{ background: linear-gradient(-90deg rgb(86, 86, 253) 50%, rgb(60,60,175) 50%);}
+}
+@keyframes firstPlanetRenderRotater {
+  0%{transform: scaleX(-0.2); background-color: rgb(86, 86, 253);}
+  12%{transform: scaleX(-1); background-color: rgb(86, 86, 253);}
+  12.1%{transform: scaleX(1); background-color: rgb(86, 86, 253);}
+  37%{transform: scaleX(0); background-color: rgb(86, 86, 253);}
+  37.1%{transform: scaleX(0);background-color: rgb(60, 60, 175);}
+  62%{ transform: scaleX(-1); background-color: rgb(60, 60, 175);}
+  62.1%{ transform: scaleX(1); background-color: rgb(60, 60, 175);}
+  87%{transform: scaleX(0); background-color: rgb(60, 60, 175);}
+  87.1%{transform: scaleX(0);background-color: rgb(86, 86, 253);}
+  100%{transform: scaleX(-0.2); background-color: rgb(86, 86, 253);}
+
+}
+@keyframes secondPlanetRender {
+    0%{background: linear-gradient(90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+    40%{background: linear-gradient(90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+    40.1%{background: linear-gradient(-90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+    90%{background: linear-gradient(-90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+    90.1%{background: linear-gradient(90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+    100%{background: linear-gradient(90deg rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);}
+}
+@keyframes secondPlanetRenderRotater {
+    0%{transform: scaleX(0.5); background-color: rgb(95,185,95) ;}
+      15%{transform: scaleX(0); background-color: rgb(95,185,95);}
+      15.1%{transform: scaleX(0);background-color: rgb(65,128,65);}
+      40%{transform: scaleX(-1);background-color: rgb(65,128,65);}
+      40.1%{transform: scaleX(1);background-color: rgb(65,128,65); }
+      65%{transform: scaleX(0);background-color: rgb(65, 128, 65); }
+      65.1%{ transform: scaleX(0);background-color: rgb(95, 185,95); }
+     90%{ transform: scaleX(-1); background-color: rgb(95, 185,95);}
+      90.1%{transform: scaleX(1);background-color: rgb(95, 185,95);}
+      100%{transform: scaleX(0.5);background-color: rgb(95, 185,95);}
+}
+
+@keyframes thirdPlanetRender {
+    0%{background: linear-gradient(-90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+    49%{background: linear-gradient(-90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+    49.1%{background: linear-gradient(90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+    99%{background: linear-gradient(90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+    99.1%{background: linear-gradient(-90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+    100%{background: linear-gradient(-90deg rgb(255,66,113) 50%, rgb(168, 47, 77) 50%);}
+
+}
+
+
+
+@keyframes thirdPlanetRenderRotater {
+    0%{transform: scaleX(1);background-color: rgb(168, 47, 77) ;}
+      25%{transform: scaleX(0);background-color: rgb(168, 47, 77); }
+      25.1%{transform: scaleX(0);background-color: rgb(255, 66, 113);}
+      49%{transform: scaleX(1);background-color: rgb(255, 66, 113);}
+      75%{transform: scaleX(0);background-color: rgb(255, 66, 113);}
+      75.1%{transform: scaleX(0);background-color: rgb(168, 47, 77);}
+      100%{transform: scaleX(1); background-color: rgb(168, 47, 77); }
+}
